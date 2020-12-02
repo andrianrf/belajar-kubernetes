@@ -19,7 +19,7 @@ spec:
           ports:
             - containerPort: 80
         - name: nodejs-web
-          image: khannedy/nodejs-web
+          image: andrianrf/nodejs-web
           ports:
             - containerPort: 3000
 
@@ -51,4 +51,4 @@ metadata:
 spec:
   containers:
     - name: curl
-      image: khannedy/nginx-curl
+      image: andrianrf/nginx-curl

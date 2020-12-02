@@ -1,11 +1,11 @@
 # Build image
-docker build -t khannedy/nginx-curl .
+docker build -t andrianrf/nginx-curl .
 
 # Push image
-docker push khannedy/nginx-curl
+docker push andrianrf/nginx-curl
 
 # Create container
-docker container create --name nginx-curl khannedy/nginx-curl
+docker container create --name nginx-curl andrianrf/nginx-curl
 
 # Start container
 docker container start nginx-curl

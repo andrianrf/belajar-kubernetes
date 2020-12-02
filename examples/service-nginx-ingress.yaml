@@ -42,7 +42,7 @@ metadata:
     name: nginx-ingress
 spec:
   rules:
-    - host: nginx.khannedy.local
+    - host: nginx.minikube.local
       http:
         paths:
           - path: /
