@@ -1,11 +1,11 @@
 # Build image
-docker build -t khannedy/nodejs-env .
+docker build -t andrianrf/nodejs-env .
 
 # Push container
-docker push khannedy/nodejs-env
+docker push andrianrf/nodejs-env
 
 # Create container
-docker container create --name nodejs-env khannedy/nodejs-env
+docker container create --name nodejs-env andrianrf/nodejs-env
 
 # Start container
 docker container start nodejs-env

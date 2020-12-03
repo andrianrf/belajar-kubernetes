@@ -43,7 +43,7 @@ spec:
     spec:
       containers:
         - name: nodejs-stateful
-          image: khannedy/nodejs-stateful
+          image: andrianrf/nodejs-stateful
           env:
             - name: POD_NAME
               valueFrom:

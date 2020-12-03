@@ -5,7 +5,8 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  capa
+  capacity:
+    storage: 5Gi
   hostPath:
     path: /data/location
 

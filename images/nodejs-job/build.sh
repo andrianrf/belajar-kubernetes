@@ -1,11 +1,11 @@
 # Build image
-docker build -t khannedy/nodejs-job .
+docker build -t andrianrf/nodejs-job .
 
 # Push container
-docker push khannedy/nodejs-job
+docker push andrianrf/nodejs-job
 
 # Create container
-docker container create --name nodejs-job khannedy/nodejs-job
+docker container create --name nodejs-job andrianrf/nodejs-job
 
 # Start container
 docker container start nodejs-job

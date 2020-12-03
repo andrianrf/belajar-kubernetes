@@ -1,11 +1,11 @@
 # Build image
-docker build -t khannedy/nodejs-writer .
+docker build -t andrianrf/nodejs-writer .
 
 # Push image
-docker push khannedy/nodejs-writer
+docker push andrianrf/nodejs-writer
 
 # Create container
-docker container create --name nodejs-writer khannedy/nodejs-writer
+docker container create --name nodejs-writer andrianrf/nodejs-writer
 
 # Start container
 docker container start nodejs-writer

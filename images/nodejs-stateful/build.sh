@@ -1,11 +1,11 @@
 # Build image
-docker build -t khannedy/nodejs-stateful .
+docker build -t andrianrf/nodejs-stateful .
 
 # Push image
-docker push khannedy/nodejs-stateful
+docker push andrianrf/nodejs-stateful
 
 # Create container
-docker container create --name nodejs-stateful khannedy/nodejs-stateful
+docker container create --name nodejs-stateful andrianrf/nodejs-stateful
 
 # Start container
 docker container start nodejs-stateful

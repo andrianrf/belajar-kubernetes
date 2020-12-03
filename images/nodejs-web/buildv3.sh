@@ -1,11 +1,11 @@
 # Build image
-docker build -t khannedy/nodejs-web:3 .
+docker build -t andrianrf/nodejs-web:3 .
 
 # Push container
-docker push khannedy/nodejs-web:3
+docker push andrianrf/nodejs-web:3
 
 # Create container
-docker container create --name nodejs-web:3 khannedy/nodejs-web:3
+docker container create --name nodejs-web:3 andrianrf/nodejs-web:3
 
 # Start container
 docker container start nodejs-web:3
